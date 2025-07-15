@@ -1,0 +1,32 @@
+Copyright © 2025 Bijoy Singha
+
+This project is provided strictly for educational and non-commercial use only.
+
+Permission is hereby granted to any person obtaining a copy of this project and associated files (the “Software”), to use, copy, modify, and distribute the Software for **personal learning and academic research** purposes, subject to the following conditions:
+
+1. **Non-Commercial Use**:  
+   The Software may not be used for commercial purposes. You may not sell, license, or distribute this Software or any modified version of it for financial gain.
+
+2. **No Warranty**:  
+   The Software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+3. **Respect for Copyright and Licenses**:  
+   This project does not include or distribute any proprietary software, including but not limited to Microsoft Windows ISOs, licensed binaries, or copyrighted content.  
+   Users are solely responsible for ensuring they use this Software in compliance with all applicable laws and licenses related to any third-party content.
+
+4. **No Redistribution of Proprietary Software**:  
+   This project does not permit uploading or sharing of copyrighted ISO files or any other non-open-source software.
+
+5. **Educational Use Only**:  
+   This Software is intended for students, hobbyists, developers, and educators to explore virtualization and system emulation in a responsible and legal manner.
+
+6. **Attribution**:  
+   Any use or distribution of this Software must retain this license file and give proper credit to the original author.
+
+---
+
+By using this Software, you agree to all the terms stated above.
+
+For inquiries, contact: [Bijaysingha226@gmail.com]
+
+© 2025 Bijay Singha. All rights reserved.

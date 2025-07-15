@@ -1,0 +1,16 @@
+========================================
+  Project: QEMU ISO Booter for Android
+  Author: Bijay Singha
+  GitHub: https://github.com/<your-username>
+  License: Open Source / Educational Use Only
+
+  Description:
+  This project is designed to help users run
+  QEMU-based virtual machines on Android devices
+  using Termux. It does not contain or distribute
+  any proprietary software.
+
+  Use this responsibly and for learning purposes only.
+
+  © 2025 Bijay Singha. All rights reserved.
+========================================

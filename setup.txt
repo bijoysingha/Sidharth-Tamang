@@ -1,0 +1,69 @@
+                      How to setup windows 7 in mobile specialy ported by me ?
+                       
+                                010110                         011001
+                               110111                           110010
+                              0010110                         1101001
+                             1000  1010                   0101 0000
+                            1111        11                  11       1111
+                           0000          21              12           1000
+                          1111                                             1110
+                         0011                                               1011
+                        1001                                                 1111
+                       0011                                                   1000
+                      0110                                                     1111                           
+   
+ 
+
+                     Requirements 
+    30 gb storage
+     2 gb ram
+      300 mb / 400 mb network 
+        termux playstore / .apk
+      extra 1.5 gb storage for termux files download 
+   real windows 7 .iso file 
+ any desk app from Playstore 
+
+          Downloading part ( very important)
+  commands for termux 
+ 1. pkg update && pkg upgrade
+
+  2. pkg install qemu-utils qemu-system-x86 wget unzip
+
+  3.  pkg install qemu-utils
+
+  4.  pkg install qemu-system-x86-64-headless
+
+  5. qemu-img create -f qcow2 win7.img 30G
+
+  6. you need to extract the highly compressed rar file and you will get the iso file rename it to `Windows7.iso" then put it to the download folder it will be of 3.5 to 3.9 gb size iso file 
+
+
+  7. termux-setup-storage
+
+ 8. cp /sdcard/Download/Windows7.iso ~/windows7.iso
+
+  9. qemu-system-x86_64 \
+  -m 2048 \
+  -cpu core2duo \
+  -smp 2 \
+  -cdrom ~/windows7.iso \
+  -hda win7.img \
+  -boot d \
+  -vga std \
+  -net nic -net user
+
+  Resume with Installed Windows 
+qemu-system-x86_64 \
+  -m 2048 \
+  -cpu core2duo \
+  -smp 2 \
+  -hda win7.img \
+  -boot c \
+  -vga std \
+  -net nic -net user
+
+  now it will show port copy the port and paste it in any desk app port box and click on the aero button you have successfully run windows 7 in mobile with the help of vnc 
+ it has created 30 gb ran for virtual computer an 2 gb rom 
+
+
+                Now enjoy !
